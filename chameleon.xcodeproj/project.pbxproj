@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53A5EEDC32852AF33F1E79E6 /* libPods-chameleonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 763F8C0F41DDBC7E84C9811E /* libPods-chameleonTests.a */; };
 		8C42D0912455C6B800143CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D0902455C6B800143CB3 /* AppDelegate.swift */; };
 		8C42D0932455C6B800143CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D0922455C6B800143CB3 /* SceneDelegate.swift */; };
 		8C42D0952455C6B800143CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D0942455C6B800143CB3 /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		8C42D09A2455C6B800143CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D0992455C6B800143CB3 /* Assets.xcassets */; };
 		8C42D09D2455C6B800143CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42D09B2455C6B800143CB3 /* LaunchScreen.storyboard */; };
 		8C42D0A82455C6B900143CB3 /* chameleonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42D0A72455C6B900143CB3 /* chameleonTests.swift */; };
+		9043F45CACFCC86AFD20056E /* libPods-chameleon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4052BB74B9B41687C79D9F71 /* libPods-chameleon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096C888567AD04CD55B9B806 /* Pods-chameleonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chameleonTests.release.xcconfig"; path = "Target Support Files/Pods-chameleonTests/Pods-chameleonTests.release.xcconfig"; sourceTree = "<group>"; };
+		0997100424B3839654F1B6BA /* Pods-chameleon-chameleonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chameleon-chameleonTests.debug.xcconfig"; path = "Target Support Files/Pods-chameleon-chameleonTests/Pods-chameleon-chameleonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09F3E48745976C5510311143 /* Pods-chameleon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chameleon.debug.xcconfig"; path = "Target Support Files/Pods-chameleon/Pods-chameleon.debug.xcconfig"; sourceTree = "<group>"; };
+		3B8E0A122AA1DE0DE05643DF /* Pods-chameleon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chameleon.release.xcconfig"; path = "Target Support Files/Pods-chameleon/Pods-chameleon.release.xcconfig"; sourceTree = "<group>"; };
+		4052BB74B9B41687C79D9F71 /* libPods-chameleon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chameleon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763F8C0F41DDBC7E84C9811E /* libPods-chameleonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chameleonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0D25F3245F217600D7E012 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C42D08D2455C6B800143CB3 /* chameleon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chameleon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C42D0902455C6B800143CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C42D0922455C6B800143CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,8 @@
 		8C42D0A32455C6B900143CB3 /* chameleonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chameleonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C42D0A72455C6B900143CB3 /* chameleonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chameleonTests.swift; sourceTree = "<group>"; };
 		8C42D0A92455C6B900143CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3105A1B69D408BE6214C776 /* Pods-chameleonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chameleonTests.debug.xcconfig"; path = "Target Support Files/Pods-chameleonTests/Pods-chameleonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E14533E5D5BD7C13CD33F586 /* Pods-chameleon-chameleonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chameleon-chameleonTests.release.xcconfig"; path = "Target Support Files/Pods-chameleon-chameleonTests/Pods-chameleon-chameleonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9043F45CACFCC86AFD20056E /* libPods-chameleon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A5EEDC32852AF33F1E79E6 /* libPods-chameleonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,8 @@
 				8C42D08F2455C6B800143CB3 /* chameleon */,
 				8C42D0A62455C6B900143CB3 /* chameleonTests */,
 				8C42D08E2455C6B800143CB3 /* Products */,
+				D0B62257B7F4EE5A511A88C8 /* Pods */,
+				903C6C95B340F1183B424D0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +114,29 @@
 			path = chameleonTests;
 			sourceTree = "<group>";
 		};
+		903C6C95B340F1183B424D0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D25F3245F217600D7E012 /* SwiftGifOrigin.framework */,
+				4052BB74B9B41687C79D9F71 /* libPods-chameleon.a */,
+				763F8C0F41DDBC7E84C9811E /* libPods-chameleonTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B62257B7F4EE5A511A88C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09F3E48745976C5510311143 /* Pods-chameleon.debug.xcconfig */,
+				3B8E0A122AA1DE0DE05643DF /* Pods-chameleon.release.xcconfig */,
+				B3105A1B69D408BE6214C776 /* Pods-chameleonTests.debug.xcconfig */,
+				096C888567AD04CD55B9B806 /* Pods-chameleonTests.release.xcconfig */,
+				0997100424B3839654F1B6BA /* Pods-chameleon-chameleonTests.debug.xcconfig */,
+				E14533E5D5BD7C13CD33F586 /* Pods-chameleon-chameleonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C42D0AC2455C6B900143CB3 /* Build configuration list for PBXNativeTarget "chameleon" */;
 			buildPhases = (
+				86F074489C5CEBCE403390DB /* [CP] Check Pods Manifest.lock */,
 				8C42D0892455C6B800143CB3 /* Sources */,
 				8C42D08A2455C6B800143CB3 /* Frameworks */,
 				8C42D08B2455C6B800143CB3 /* Resources */,
@@ -123,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C42D0AF2455C6B900143CB3 /* Build configuration list for PBXNativeTarget "chameleonTests" */;
 			buildPhases = (
+				E1615BB8A575C48A32BB22A7 /* [CP] Check Pods Manifest.lock */,
 				8C42D09F2455C6B900143CB3 /* Sources */,
 				8C42D0A02455C6B900143CB3 /* Frameworks */,
 				8C42D0A12455C6B900143CB3 /* Resources */,
@@ -194,6 +234,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86F074489C5CEBCE403390DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chameleon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1615BB8A575C48A32BB22A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chameleonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C42D0892455C6B800143CB3 /* Sources */ = {
@@ -360,10 +447,13 @@
 		};
 		8C42D0AD2455C6B900143CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F3E48745976C5510311143 /* Pods-chameleon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ47DZ3XPK;
 				INFOPLIST_FILE = chameleon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +467,13 @@
 		};
 		8C42D0AE2455C6B900143CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8E0A122AA1DE0DE05643DF /* Pods-chameleon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ47DZ3XPK;
 				INFOPLIST_FILE = chameleon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +487,7 @@
 		};
 		8C42D0B02455C6B900143CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3105A1B69D408BE6214C776 /* Pods-chameleonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +509,7 @@
 		};
 		8C42D0B12455C6B900143CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096C888567AD04CD55B9B806 /* Pods-chameleonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
